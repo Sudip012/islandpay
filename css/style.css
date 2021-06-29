@@ -230,11 +230,11 @@
 
     .live-chat-btn {
         position: relative;
-        background:linear-gradient(45deg, #601253, #bf219e);
+        background:linear-gradient(45deg, #08aea8, #24cabd);
         width: 80px;
         height: 80px;
         border-radius: 50%;
-        box-shadow:2px 2px 20px 2px #db59ea8c;
+        box-shadow:2px 2px 20px 2px #77efe4;
         outline: none;
         border: none;
         animation: animate 1.5s ease-in-out infinite;
@@ -279,7 +279,7 @@
 
 
 .tooltip ,  .tooltip-inner  { 
- background:linear-gradient(50deg, #601253, #bf219e)!important;
+ background:linear-gradient(90deg,#0fb5ae,#1cd4c8);
  opacity: 1!important;
  padding: 10px 10px!important;
  font-weight: 600!important;
@@ -297,7 +297,7 @@
         z-index: 3!important;
         width: 100%!important;
         height: 50px!important;
-        background:linear-gradient(45deg, #601253, #bf219e);
+        background:linear-gradient(90deg,#0fb5ae,#1cd4c8);
         color: white;
         border: none!important;
         box-shadow: none!important;
@@ -385,7 +385,7 @@ label                {
   -webkit-transition:0.2s ease all;
 }
 .text-css{
-  color: #350435!important;
+  color: #2db8b5!important;
   text-align: center!important;
   font-size: 14px!important;
   font-weight: 500!important;
@@ -496,7 +496,7 @@ input:focus ~ .highlight {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #800080 !important;
+    background: #2db8b5!important;
     overflow-x: hidden;
   
 }
@@ -590,9 +590,9 @@ ol {
     top: 0;
     left: 0;
     background: #630d52;
-    background: -webkit-linear-gradient(to right, #630d52, #d450ba);
-    background: -webkit-linear-gradient(left, #630d52, #d450ba);
-    background: linear-gradient(to right, #630d52, #d450ba);
+    background: -webkit-linear-gradient(90deg,#0fb5ae,#1cd4c8);
+    background: -webkit-linear-gradient(90deg,#0fb5ae,#1cd4c8);
+    background: linear-gradient(90deg,#0fb5ae,#1cd4c8);
 }
 
 .preload-content {
@@ -5812,7 +5812,7 @@ p.artficial:before{
     }
 }
 .d-sec{
-    background: #620f52;
+    background: #0a5d5a;
     position: relative;
 }
 .d-sec:before{
