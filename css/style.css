@@ -1500,7 +1500,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .navbar-dark .navbar-toggler,
 .navbar-white .navbar-toggler,
 .navbar-cyan .navbar-toggler{
-    background: #601253 ;
+    background: #29cfd4; ;
     border-color: #fff;
 }
 .navbar-white .navbar-toggler-icon{
