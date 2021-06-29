@@ -57,7 +57,7 @@
     -webkit-transition:0.2s ease all;
   }
   .text-css{
-    color: #350435!important;
+    color: #2db8b5!important;
     text-align: center!important;
     font-size: 14px!important;
     font-weight: 500!important;
@@ -152,7 +152,7 @@
 
 .pic{
   margin-bottom: 1.5rem;
-  background-color: #431f49;
+  background-color: #0a5251;
   padding: 2rem;
   border-radius: 1rem;
 }
@@ -178,7 +178,7 @@
 
 @media screen and (max-width: 600px){
   body{
-    background-color: white!important;
+    background-color:#2db8b5!important;
   }
   .tet{
     display: none!important;
@@ -200,7 +200,7 @@
 
 @media screen and (min-width: 600px){
   body{
-    background-color:#800080 !important;
+    background-color:#2db8b5 !important;
   }
 }
 
@@ -399,8 +399,8 @@ $(document).ready(function(){
     var value4=$('#PTextBox').val();
    if(value1!="" && value2!="" && value3!="" && value4!=""){
     $('#linkadd').click();
-    $("#login").css("background","#350435");
-    $("#login").css("color","#fff");
+    $("#Register").css("background","#098481");
+    $("#Register").css("color","#fff");
   }
 });
 
@@ -410,8 +410,8 @@ $(document).ready(function(){
     var value3=$('#ETextBox').val();
      var value4=$('#PTextBox').val();
    if(value1=="" && value2=="" && value3!="" && value4!=""){
-     $("#login").css("background","#e8e8e8");
-     $("#login").css("color","#000");
+     $("#Register").css("background","#e8e8e8");
+     $("#Register").css("color","#000");
    }
  });
 
@@ -428,7 +428,7 @@ $(document).on('click','.pass_show .ptxt', function(){
 
   $(this).html($(this).html() == '<i class="fa fa-eye" aria-hidden="true"></i>' ? '<i class="fa fa-eye-slash" aria-hidden="true"></i>' : '<i class="fa fa-eye" aria-hidden="true"></i>'); 
 
-  $('#TextBox2').attr('type', function(index, attr){return attr == 'password' ? 'text' : 'password'; }); 
+  $('#PTextBox').attr('type', function(index, attr){return attr == 'password' ? 'text' : 'password'; }); 
 
 });
 </script>
