@@ -236,6 +236,11 @@
 text-align: center!important;
     }
 }
+@media(min-width: 400px){
+.txt-cust-center{
+text-align: center!important;
+    }
+  }
 
 @media(min-width: 600px){
     .txt-cust-center{
