@@ -16,7 +16,12 @@
   .responsive-img { background-image: url(img/bg-img/header-bg3.png);
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+}
+.responsive-border{
+    border: none;
+}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -25,6 +30,10 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;}
+    .responsive-border{
+    border: none;
+}
+ 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -32,7 +41,10 @@
    .responsive-img { background-image: url(img/bg-img/header-bg3.png);
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;}    
+    background-size: cover;}  
+    .responsive-border{
+    border: none;
+}  
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -41,6 +53,10 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;} 
+    .responsive-border{
+    border: none;
+}
+
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -49,6 +65,14 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;} 
+}
+@media only screen and (max-width: 779px) {
+ .margin-center{
+        margin: 0 auto!important;
+    }
+    .txt-cust-center{
+text-align: center!important;
+    }
 }
     </style>
 </head>
@@ -158,8 +182,8 @@
                         </div>
                         <h1 class="w-text wow fadeInUp" data-wow-delay="0.2s">Access your money anytime, anywhere in the world</h1>
                         <p class="w-text wow fadeInUp " data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
-                        <div class="info-btn-group wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="#" class="btn btn bt-color text-white btn-lg  mr-3 shadow" style="text-shadow: 1px 1px 2px #000;">Get Started</a>
+                        <div class="info-btn-group wow text-center fadeInUp" data-wow-delay="0.4s">
+                            <a href="#" class="btn btn bt-color text-white  btn-lg  mr-3 shadow" style="text-shadow: 1px 1px 2px #000;">Get Started</a>
                             
                         </div>
                     </div>
@@ -178,7 +202,7 @@
     <div class="container">
         <div class="has-shadow agency-sec">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 border-right-css txt-cust-center">
+                <div class="col-lg-4 col-md-6 col-sm-12 border-right-css responsive-border txt-cust-center">
                     <div class="services-block-four v2">
                         <div class="inner-box">
                             <div class="icon-img-box margin-center">
@@ -190,7 +214,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 border-right-css txt-cust-center" >
+                <div class="col-lg-4 col-md-6 col-sm-12 border-right-css responsive-border txt-cust-center" >
                     <div class="services-block-four v2">
                         <div class="inner-box">
                             <div class="icon-img-box margin-center">
@@ -203,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 border-right-css txt-cust-center">
+                <div class="col-lg-4 col-md-6 col-sm-12 border-right-css responsive-border txt-cust-center">
                     <div class="services-block-four v2">
                         <div class="inner-box">
                             <div class="icon-img-box margin-center">
@@ -411,7 +435,7 @@
                 <h4 class="fadeInUp text-white font-weight-bold" data-wow-delay="0.3s">Download The App<br> Truted by 40 million</h4>
                 <p class="fadeInUp text-justify text-white" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit eum illum tempora? Ducimus eum culpa voluptates dolorem dolorum et sit nisi, mollitia animi porro fuga sequi.</p>
                 <div class="row">
-                    <div class="col-md-6 col-6">
+                    <div class="col-md-6 col-sm-12">
                      <div class="services-block-four p-2 v2" style="border: solid 1px white; border-radius: 18px;">
                          <a href="#">
                             <div class="inner-box align-items-center align-content-center">
@@ -425,7 +449,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-6">
+                <div class="col-md-6 col-sm-12">
                   <div class="services-block-four p-2 v2" style="border: solid 1px white; border-radius: 18px;">
                      <a href="#">
                         <div class="inner-box  align-items-center align-content-center">
