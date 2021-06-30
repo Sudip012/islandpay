@@ -147,6 +147,8 @@
   color: black!important;
   user-select: none!important; 
   border-bottom: 2px solid #dbd9d9!important;
+  outline: none!important;
+  box-shadow: none!important;
 }
 /*choice box underline end*/
 
@@ -188,7 +190,7 @@
   }
   .pic{
     margin-bottom: -6px;
-    margin-top: -5rem;
+   /* margin-top: -5rem;*/
   }
 }
 
@@ -198,18 +200,14 @@
   }
 }
 
-@media screen and (min-width: 600px){
-  body{
-    background-color:#2db8b5 !important;
-  }
-}
+
 
 </style>
 <body>
   <nav class="navbar navbar-expand-md navbar-white bg-white fixed-top" id="banner">
     <div class="container">
       <!-- Brand -->
-      <a class="navbar-brand text-color-custom" href="#"><span><img src="logo.png" alt="logo" width="80"></span></a>
+     <a class="navbar-brand text-color-custom text-dark" href="#"><span><img src="logo.png" alt="logo" width="80"></span>Island Pay</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -230,11 +228,11 @@
     </div>
   </nav>
 
-  <div class="container">
-    <div class="col-md-12">
-      <div class="row mt-10" style="margin-top: 8rem; margin-bottom: 2rem;">
+  <div class="container"  style=" margin-top: 9rem;">
 
-        <div class="col-lg-7 col-md-6 d-flex align-items-center justify-content-center" style="padding: 20px;">
+      <div class="row m-1">
+
+        <div class="col-lg-7 col-md-6 col-sm-6 d-flex align-items-center justify-content-center" >
           <div>
             <div class="col-md-12 d-flex align-items-center justify-content-center tet" style="margin-bottom: 1.5rem;">
               <div class="txt" style="text-align: center;">
@@ -242,11 +240,11 @@
                 <p>Pay, send, receive.</p>
               </div>
             </div>
-            <div class="col-md-12 pic d-flex align-items-center justify-content-center">
+            <div class="col-md-12 pic d-flex mb-3 align-items-center justify-content-center">
               <div class="col-md-4">
                 <img src="img/promo-banner-icon.svg" class="img-fluid" alt="glove">
               </div>
-              <div class="col-md-8 txt2">
+              <div class="col-md-8 txt2 ">
                 <p>Join millions who already use Skrill to safely pay online and send money anywhere in the world.</p>
               </div>
             </div>
@@ -278,15 +276,13 @@
           </div>
         </div>
 
-
-
-        <div class="col-lg-5 col-md-6 col-sm-12 px-lg-5 px-md-5 p-sm-3 shadow mx-auto cstmborderrad bg-white tet2">
+        <div class="col-lg-5 col-md-6 col-sm-6 px-5 py-5 shadow mx-auto cstmborderrad bg-white tet2">
           <div class="frm">
             <div class="col-12 mx-auto">
-              <h2 class="text-dark my-3 text-center coustomfont1">Register</h2>
+              <h2 class="text-dark  text-center coustomfont1">Register</h2>
             </div>
             <div class="col-12 mx-auto">
-            <h4 class="text-dark text-center coustomfont my-3">Don't have an account?<a href="#" class="text-css"> Log in</a></h4>
+            <h4 class="text-dark text-center coustomfont my-2">Already have an account?<a href="login.html" class="text-css"> Log in</a></h4>
             </div>
             <form class="needs-validation" novalidate>
               <div class="row">
@@ -356,9 +352,7 @@
 
                 </div>
                 <br/>
-                <div class="col-md-12 mt-3" style="text-align: center;">
-                  <a href="javascript:void(0)" class="text-css" >Forgot your password?</a>
-                </div>
+           
 
               </div>
             </form>
@@ -367,7 +361,6 @@
 
       </div>
     </div>
-  </div>
 </div>
 <br>
 <script>
