@@ -1858,7 +1858,7 @@ ol {
 .welcome-content {
     position: relative;
     z-index: 1;
-    margin-top: 90px;
+    margin-top: 0px;
 }
 
 .promo-section {
