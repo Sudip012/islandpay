@@ -1465,7 +1465,7 @@ ol {
     }
     .navbar-nav .nav-item .nav-link:hover{color:#fed136;}
     .navbar-expand-md .navbar-nav .dropdown-menu{
-        border-top:3px solid #fed136;
+       /* border-top:3px solid #fed136;*/
     }
     .dropdown-item:hover{background-color:#fed136;color:#fff;}
     nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
@@ -1502,7 +1502,7 @@ ol {
 {
     .navbar{ background:rgb(251 243 250);}
     .navbar-nav{
-        border-top:1px solid #fed136;
+       /* border-top:1px solid #fed136;*/
         color:#fff;
         z-index:1;
         margin-top:5px;
