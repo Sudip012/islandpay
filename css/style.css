@@ -7221,7 +7221,7 @@ textarea:required {
 .breadcumb-content {
     position: absolute !important;
     width: 100%;
-    height: 100%;
+    height: 70%;
     top: 0;
     left: 0;
     z-index: 10;
@@ -7232,7 +7232,7 @@ textarea:required {
 }
 
 .breadcumb--con {
-    padding-top: 90px;
+    padding-top: 25px;
 }
 
 .breadcrumb {
@@ -7244,7 +7244,7 @@ textarea:required {
 }
 
 .breadcumb--con .title {
-    font-size: 42px;
+    font-size: 30px;
     margin-bottom: 15px;
     margin-left: 0;
 }
