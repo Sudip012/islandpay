@@ -12818,7 +12818,8 @@ footer .footer .footer--copyright {
         padding: .5em 1em;
         color: black;
         background: 0 0;
-        margin: 0
+        margin: 0;
+        font-weight: 500;
     }
 }
 
