@@ -9976,7 +9976,7 @@ a, button, .btn {
     .app-header__logo .logo-src {
         height: 100%;
         width: 100% ;
-        background: url(logo.png);
+        background: url(logo_2.png);
          background-repeat: no-repeat; 
     }
 
@@ -10563,7 +10563,7 @@ a, button, .btn {
         margin-right: auto;
     }
 .app-header.header-text-dark .app-header__logo .logo-src {
-    background: url(logo.png);
+    background: url(logo_2.png);
 }
 
 .closed-sidebar .app-sidebar {

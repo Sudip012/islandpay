@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="Content-Language" content="en">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>User Dashboard</title>
+<title>User Dashboard | Send Money</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
 <meta name="description" content="User Dashboard">
 <meta name="msapplication-tap-highlight" content="no">
 
-<link href="main.css" rel="stylesheet"></head>
+<link href="main.css" rel="stylesheet">
 
 <style type="text/css">
   .vertical-nav-menu li{
@@ -26,77 +26,80 @@
   }
 </style>
 <style type="text/css">
-  .nxt{
-    background-color: #2DB8B6;
-    color: #fff;
-    margin-top: 2rem;
-  }
-  .nxt ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .nxt li {
-    font-size: 1rem;
-    line-height: 1.375rem;
-    display: flex;
-  }
-  .nxt .tb{
-    flex: 1;
-    display: inline-block;
-    padding-left: 18px;
-  }
-  .icon{
-    font-size: 3rem;
-    padding: 17px;
-  }
-
-  .drp{
-    margin-top: 4rem;
-  }
-  .scrh{
-    margin-top: 3rem;
-  }
-  .frm{
-    border-radius: 11px;
-    border: 2px solid #2DB8B6;
-    outline: none
-  }
-
-  .bdr ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .bdr li {
-    margin-bottom: .75rem;
-    font-size: 1rem;
-    line-height: 1.375rem;
-    display: flex;
-    padding: 20px;
-    border-top: 1px solid #ced4da;
-  }
-
-  .bdr aside {
-    text-align: right;
-    display: block;
-  }
-  .bdr .tx{
-    flex: 1;
-    display: inline-block;
-    padding-left: 18px;
-  }
-  .bdr .tx p{
-    margin: 0;
-    padding: 0;
-  }
-
-  .bdr .icon2{
-    font-size: 3rem;
-    padding: 0;
-    color: #2DB8B6;
-  }
-</style>
+    .card1, .card2{
+      margin-top: 2rem;
+    }
+    .wallet {
+      background-color: #ffff;
+      padding: 20px;
+      border-radius: 1rem;
+    }
+    .pic{
+      padding: 15px;
+    }
+    .img{
+      width: 4rem;
+      height: auto;
+    }
+    .txt{
+      padding: 10px;
+    }
+    .txt h4{
+      font-weight: 500;
+    }
+    .txt p{
+      font-weight: 500;
+    }
+    .alrt span{
+      background: #bdedf1;
+      margin-right: 4px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 1rem;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    
+    .icon{
+      background: #e6e6e6;
+      color: #a9a9a9;
+      padding: 10px;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .ft{
+      background: #bdedf1;
+      margin-top: -26px;
+      z-index: -1;
+      padding: 20px;
+      border-radius: 1rem;
+      padding-bottom: 5px;
+    }
+    .ft p{
+      margin:0;
+      padding: 10px;
+      padding-bottom: 0;
+      margin-top: 1px;
+      font-weight: 400;
+      font-size: 14px;
+    }
+    .ft p i{
+      padding-right: 6px;
+    }
+    .ft p a{
+      color: #7d2c64;
+    }
+    @media only screen and (max-width: 448px){
+      .alrt span{
+        margin-bottom: 4px;
+      }
+    }
+  </style>
+  </head>
 <body>
 
   <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
@@ -104,7 +107,7 @@
 
       <div class="app-header__logo d-flex">
        <div class="logo-src"></div>
-       
+
        <div class="header__pane ml-auto  d-cutom-responsive">
         <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
           <span class="hamburger-box">
@@ -112,7 +115,7 @@
           </span>
         </button>
       </div>
-      
+
     </div>
 
     <div class="app-header__mobile-menu">
@@ -189,7 +192,7 @@
   <div class="app-sidebar sidebar-shadow">
     <div class="app-header__logo">
      <div class="logo-src"></div>
-     
+
      <div class="header__pane ml-auto">
       <div>
         <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
@@ -217,7 +220,7 @@
         </span>
       </button>
     </span>
-    
+
   </div>  
 
   <div class="scrollbar-sidebar">
@@ -229,7 +232,7 @@
             DASHBOARD
           </a>
         </li>
-        
+
         <li>
           <a href="send-money.html">
             <i class="metismenu-icon pe-7s-right-arrow"></i>
@@ -273,7 +276,60 @@
 
 <div class="app-main__outer">
   <div class="app-main__inner">
-   
+
+<div class="row">
+    <div class="col-12 col-sm-12">
+      <div class="head text-center">
+        <h2>Send money</h2>
+      </div>
+      <div class="row d-flex align-items-center justify-content-center">
+        
+        <div class="col-md-8 card1">
+          <section class=" wallet shadow d-flex align-items-center justify-content-center">
+            <div class="pic">
+              <img src="img/wallet.png" class="img" alt="wallet">
+            </div>
+            <div class="txt">
+              <h4>What is Lorem Ipsum?</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <div class="alrt row">
+                <span>Free 2.99%</span>
+                <span>Instant</span>
+                <span>Worldwide</span>
+              </div>
+            </div>
+            <div class="icon">
+              <i class="fas fa-angle-right"></i>
+            </div>
+          </section>
+          <footer class="col-md-12 ft">
+            <p><i class="fas fa-info-circle"></i>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+          </footer>
+        </div>
+
+        <div class="col-md-8 card2">
+          <section class=" wallet shadow d-flex align-items-center justify-content-center">
+            <div class="pic">
+              <img src="img/bank.png" class="img" alt="wallet">
+            </div>
+            <div class="txt">
+              <h4>Why do we use it?</h4>
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <div class="alrt row">
+                <span>Free</span>
+                <span>Fast</span>
+                <span>International</span>
+              </div>
+            </div>
+            <div class="icon">
+              <i class="fas fa-angle-right"></i>
+            </div>
+          </section>
+        </div>
+
+      </div>
+    </div>
+  </div>
   </div>
 </div>
 
@@ -284,7 +340,6 @@
 
 </div>
 </div>
-<script type="text/javascript" src="assets/scripts/main.js"></script></body>
-
-
+<script type="text/javascript" src="assets/scripts/main.js"></script>
+</body>
 </html>

@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Island Pay</title>
+    <title>Pacific Tupe</title>
     <link rel="icon" href="img/core-img/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -22,7 +22,13 @@
 .responsive-border{
     border: none;
 }
+.res-text{
+            font-size: 18px !important;
+    }
 
+.hero-section{
+	min-height: 500px !important;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -34,7 +40,11 @@
     .responsive-border{
     border: none;
 }
- 
+}
+@media only screen and (max-width: 600px) {
+.cstm-m-14{
+    margin-top: 14px;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -45,7 +55,13 @@
     background-size: cover;}  
     .responsive-border{
     border: none;
-}  
+}
+.cstm-p-0{
+    padding: 0 !important;
+    padding-left: 2rem !important;
+
+}
+
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -77,6 +93,10 @@ text-align: center!important;
     .responsive-padding{
     	padding-bottom: 20px;
     }
+    .nav-height{
+    height:4rem !important;
+}
+
 }
 @media only screen and (max-width: 779px) {
 .text-custom-center{
@@ -87,12 +107,13 @@ text-align: center!important;
         font-size: 17.2px !important;
     }
     .logo-text{
-        display: inline !important;
+        	display: inline !important;
             color: black;
             font-size: 1.5em !important;
-font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+			font-family: 'Poppins', sans-serif;
+    		font-weight: 600;
     }
+     
     </style>
 </head>
 
@@ -105,9 +126,9 @@ font-family: 'Poppins', sans-serif;
     </div>
     <div class="page-container">
     <header>
-                <div>
-                    <div class="logo">
-                        <a href="index.html"><img class="img-fluid" src="logo.png" alt="Logo" height="30"><span class="logo-text">PACIFIC TUPE</span></a>
+                <div class="nav-height" style="height: 4rem;">
+                    <div class="logo nav-height " style="height: 4rem;">
+                        <a class="cstm-p-0 cstm-m-14" href="index.html"><img class="img-fluid responsive-css-2" src="logo.png" alt="Logo" height="30"><span class="logo-text">PACIFIC TUPE</span></a>
                     </div>
                     <li class="nav-item dropdown mr-lg-3 responsive-css-2">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><img src="flag/united-kingdom.png" class="img-fluid" /></a>
@@ -120,7 +141,7 @@ font-family: 'Poppins', sans-serif;
                     </li>
                     <nav class="main">
                        <a href="login.html" target="_blank" id="login" class="login text-dark p-0 mr-2" title="Log in">Log in</a>
-                       <a href="register.html" target="_blank" id="register" class="btn register p-0 mr-3 p-lg-2" title="Register">Register</a></nav>
+                       <a href="register.html" target="_blank" id="register" class="btn register p-0 mr-4 p-lg-2" title="Register">Register</a></nav>
                 </div>
             </header>
         </div>
@@ -138,9 +159,9 @@ font-family: 'Poppins', sans-serif;
                         <div class="promo-section">
                             <h3 class="special-head text-dark">Make It. Move It. Send It. Send It.</h3>
                         </div>
-                        <h1 class="text-dark wow fadeInUp" data-wow-delay="0.2s">Access your money anytime, anywhere in the world</h1>
+                        <h1 class="text-dark wow fadeInUp res-text" data-wow-delay="0.2s">Access your money anytime, anywhere in the world</h1>
                         <p class="text-dark wow fadeInUp" data-wow-delay="0.3s" style="font-size: 18px !important;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
-                        <div class="info-btn-group wow text-custom-center fadeInUp" data-wow-delay="0.4s">
+                        <div class="info-btn-group wow fadeInUp" data-wow-delay="0.4s">
                             <a href="#" class="btn btn bt-color text-white  btn-lg  ml-3 shadow" style="text-shadow: 1px 1px 2px #000;">Get Started</a>
                             
                         </div>
@@ -221,10 +242,6 @@ font-family: 'Poppins', sans-serif;
             <p class="fadeInUp text-justify" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit eum illum tempora? Ducimus eum culpa voluptates dolorem dolorum et sit nisi, mollitia animi porro fuga sequi, molestias repellat excepturi nobis eum culpa voluptates dolorem dolorum et.</p>
             <p class="fadeInUp text-justify" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit eum illum tempora? Ducimus eum culpa voluptates dolorem dolorum et sit nisi, mollitia animi porro fuga sequi, molestias repellat excepturi nobis eum culpa voluptates dolorem dolorum et.</p>
 
-            <div class="col-md-6 pl-0">
-                <a href="#" class="btn btn bt-color text-white bt-custom-lg2 shadow  mr-3">Create Account</a>
-            </div>
-            
         </div>
     </div>
 </div>
@@ -243,10 +260,6 @@ font-family: 'Poppins', sans-serif;
                 <h3 class="fadeInUp font-weight-bold" data-wow-delay="0.3s">The Online Wallet For <br>Money Movers And Money Makers.</h4>
                     <p class="fadeInUp text-justify" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit eum illum tempora? Ducimus eum culpa voluptates dolorem dolorum et sit nisi, mollitia animi porro fuga sequi, molestias repellat excepturi nobis eum culpa voluptates dolorem dolorum et.</p>
                     <p class="fadeInUp text-justify" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit eum illum tempora? Ducimus eum culpa voluptates dolorem dolorum et sit nisi, mollitia animi porro fuga sequi, molestias repellat excepturi nobis eum culpa voluptates dolorem dolorum et.</p>
-
-                    <div class="col-md-6 pl-0">
-                       <a href="#" class="btn btn bt-color text-white bt-custom-lg shadow m-3">Open a Island Pay Account</a>
-                   </div>
                </div>
            </div>
 
