@@ -1463,7 +1463,7 @@ ol {
         letter-spacing: 1px;
         color: #fff;
     }
-    .navbar-nav .nav-item .nav-link:hover{color:#fed136;}
+       /*.navbar-nav .nav-item .nav-link:hover{color:#fed136;}*/
     .navbar-expand-md .navbar-nav .dropdown-menu{
        /* border-top:3px solid #fed136;*/
     }
