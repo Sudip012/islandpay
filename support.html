@@ -68,13 +68,30 @@
 			border-top-color: #EEEEEE;
 		}
 		@media only screen and (max-width: 779px) {
-.responsive-card{
-	display: none;
+			.responsive-card{
+				display: none;
 
-}
-.responsive-padding{
-padding: 0px !important;
+			}
+			.responsive-padding{
+				padding: 0px !important;
+			}
 		}
+		@media only screen and (max-width: 991px){
+			#register{
+				padding: 5px!important;
+				border: none!important;
+				width: 6rem!important;
+			}
+		}
+		#register{
+			width: 10rem;
+		}
+		#register:hover{
+			background-color: transparent;
+			color: #0bb1aa;
+			border-radius: .4em;
+			border: 1px solid #0bb1aa;
+
 		}
 	</style>
 </head>
@@ -86,27 +103,29 @@ padding: 0px !important;
 			<div id="loader-load"></div>
 		</div>
 	</div>
+
 	<div class="page-container">
 		<header>
-			<div>
-				<div class="logo">
-					<a href="index.html"><img class="responsive-css-2" src="logo.png" alt="Logo" height="30"><span class="logo-text">PACIFIC TUPE</span></a>
+			<div class="nav-height" style="height: 4rem;">
+				<div class="logo nav-height d-flex align-items-center mt-0" style="height: 4rem;">
+					<a class="cstm-p-0 cstm-m-14 d-flex align-items-center mt-0" href="index.html"><img class="img-fluid responsive-css-2" src="logo.png" alt="Logo" height="30" style="padding: 9px;"><span class="logo-text p-2 mt-0">PACIFIC TUPE</span></a>
 				</div>
-				<li class="nav-item dropdown mr-lg-3 responsive-css-2">
-					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><img src="flag/united-kingdom.png" class="img-fluid" /></a>
+				<li class="nav-item dropdown mr-lg-3 responsive-css-2" style="border: 1px solid black; border-radius: 25px; padding: 0px 10px!important; margin-right: 1rem;">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><img src="flag/united-kingdom.png" class="img-fluid">&nbsp;English</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#"><img src="flag/united-kingdom.png" class="img-fluid" />&nbsp;UK</a>
-						<a class="dropdown-item" href="#"><img src="flag/united-states.png" class="img-fluid" />&nbsp;US</a>
-						<a class="dropdown-item" href="#"><img src="flag/spain.png" class="img-fluid" />&nbsp;SP</a>
+						<a class="dropdown-item" href="#"><img src="flag/united-kingdom.png" class="img-fluid">&nbsp;UK</a>
+						<a class="dropdown-item" href="#"><img src="flag/united-states.png" class="img-fluid">&nbsp;US</a>
+						<a class="dropdown-item" href="#"><img src="flag/spain.png" class="img-fluid">&nbsp;SP</a>
 
 					</div>
 				</li>
 				<nav class="main">
-					<a href="login.html" target="_blank" id="login" class="login text-dark p-0 m-0" title="Log in">Log in</a>
-					<a href="register.html" target="_blank" id="register" class="btn register p-0 ml-1 p-lg-2" title="Register">Register</a></nav>
+					<a href="login.html" target="_blank" id="login" class="login text-dark p-0 mr-2" title="Log in">Log in</a>
+					<a href="register.html" target="_blank" id="register" class="btn register p-0 mr-4 p-lg-2" title="Register" style="border: 1px solid #0bb1aa;">Register</a></nav>
 				</div>
 			</header>
 		</div>
+
 		<div class="breadcumb-area">
 			<!-- breadcumb content -->
 			<div class="breadcumb-content" style="background: #2db8b5 !important">
@@ -232,81 +251,81 @@ padding: 0px !important;
 				</div><!-- panel-group -->
 			</div>
 		</div>
-	
-<footer class="footer-area bg-img">
 
-    <div class="footer-content-area mt-0">
-        <div class="container mt-5 mb-5">
-        	<hr class="bg-light">
-            <div class="row ">
-                <div class="col-12 col-lg-4 col-md-6">
+		<footer class="footer-area bg-img">
 
-                    <div class="footer-copywrite-info">
-                        <!-- Copywrite -->
-                        <div class="copywrite_text fadeInUp" data-wow-delay="0.2s">
-                            <div class="footer-logo font-weight-bold mb-1 mt-1">
-                                <a href="#"> Money Transfer </a>
-                            </div>
-                            <p class="custmfontcolor text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.</p>
-                        </div>
-                        <!-- Social Icon -->
-                        <div class="footer-social-info fadeInUp" data-wow-delay="0.4s">
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
+			<div class="footer-content-area mt-0">
+				<div class="container mt-5 mb-5">
+					<hr class="bg-light">
+					<div class="row ">
+						<div class="col-12 col-lg-4 col-md-6">
 
-                <div class="col-12 col-lg-3 col-md-6">
-                    <div class="contact_info_area d-sm-flex justify-content-between">
-                        <!-- Content Info -->
-                        <div class="contact_info mt-x text-center fadeInUp" data-wow-delay="0.3s">
-                            <h5 class="font-weight-bold">Categories</h5>
-                            <a href="#"><p class="custmfontcolor">Fees</p></a>
-                            <a href="#"><p class="custmfontcolor">Support</p></a>
-                            <a href="#"><p class="custmfontcolor">Terms & conditions</p></a>
-                            <a href="#"><p class="custmfontcolor">Privacy Policy</p></a>
-                        </div>
-                    </div>
-                </div>
+							<div class="footer-copywrite-info">
+								<!-- Copywrite -->
+								<div class="copywrite_text fadeInUp" data-wow-delay="0.2s">
+									<div class="footer-logo font-weight-bold mb-1 mt-1">
+										<a href="#"> Money Transfer </a>
+									</div>
+									<p class="custmfontcolor text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.</p>
+								</div>
+								<!-- Social Icon -->
+								<div class="footer-social-info fadeInUp" data-wow-delay="0.4s">
+									<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
 
-                <div class="col-12 col-lg-2 col-md-6 ">
-                    <!-- Content Info -->
-                    <div class="contact_info_area d-sm-flex justify-content-between">
-                        <div class="contact_info mt-s text-center fadeInUp" data-wow-delay="0.2s">
-                            <h5 class="font-weight-bold">Help</h5>
-                            <a href="#"><p class="custmfontcolor">Modern Salary Act</p></a>
-                            <a href="#"><p class="custmfontcolor">PSD2 APIs</p></a>
-                            <a href="#"><p class="custmfontcolor">Cookies Notice</p></a>
-                            <a href="#"><p class="custmfontcolor">Cookies Setting</p></a>
-                        </div>
-                    </div>
-                </div>
+						<div class="col-12 col-lg-3 col-md-6">
+							<div class="contact_info_area d-sm-flex justify-content-between">
+								<!-- Content Info -->
+								<div class="contact_info mt-x text-center fadeInUp" data-wow-delay="0.3s">
+									<h5 class="font-weight-bold">Categories</h5>
+									<a href="#"><p class="custmfontcolor">Fees</p></a>
+									<a href="#"><p class="custmfontcolor">Support</p></a>
+									<a href="#"><p class="custmfontcolor">Terms & conditions</p></a>
+									<a href="#"><p class="custmfontcolor">Privacy Policy</p></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-lg-2 col-md-6 ">
+							<!-- Content Info -->
+							<div class="contact_info_area d-sm-flex justify-content-between">
+								<div class="contact_info mt-s text-center fadeInUp" data-wow-delay="0.2s">
+									<h5 class="font-weight-bold">Help</h5>
+									<a href="#"><p class="custmfontcolor">Modern Salary Act</p></a>
+									<a href="#"><p class="custmfontcolor">PSD2 APIs</p></a>
+									<a href="#"><p class="custmfontcolor">Cookies Notice</p></a>
+									<a href="#"><p class="custmfontcolor">Cookies Setting</p></a>
+								</div>
+							</div>
+						</div>
 
 
-                <div class="col-12 col-lg-3 col-md-6 ">
-                    <div class="contact_info_area d-sm-flex justify-content-between">
-                        <!-- Content Info -->
-                        <div class="contact_info mt-s text-center fadeInUp" data-wow-delay="0.4s">
-                            <h5 class="font-weight-bold">CONTACT US</h5>
-                            <p class="custmfontcolor"><i class="fa fa-phone text-white" aria-hidden="true"></i> &nbsp;  (011) 0987654321</p>
-                            <p class="custmfontcolor"><i class="fa fa-envelope text-white" aria-hidden="true"></i> &nbsp; LoremIpsum@dolor.com</p>
-                            <p class="custmfontcolor"><i class="fa fa-map-marker text-white" aria-hidden="true"></i> &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr class="bg-light">
-        </div>
+						<div class="col-12 col-lg-3 col-md-6 ">
+							<div class="contact_info_area d-sm-flex justify-content-between">
+								<!-- Content Info -->
+								<div class="contact_info mt-s text-center fadeInUp" data-wow-delay="0.4s">
+									<h5 class="font-weight-bold">CONTACT US</h5>
+									<p class="custmfontcolor"><i class="fa fa-phone text-white" aria-hidden="true"></i> &nbsp;  (011) 0987654321</p>
+									<p class="custmfontcolor"><i class="fa fa-envelope text-white" aria-hidden="true"></i> &nbsp; LoremIpsum@dolor.com</p>
+									<p class="custmfontcolor"><i class="fa fa-map-marker text-white" aria-hidden="true"></i> &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr class="bg-light">
+				</div>
 
-        <div class="container">
-           <p class="text-center custmfontcolor">Copyright © 2021 Paysafe Holdings UK Limited. All rights reserved. Pacific Tupe Limited (FRN: 900001) is authorised by the Financial Conduct Authority under the Electronic Money Regulations 2011 for the issuing of electronic money and payment instruments. Pacific Tupe is a registered trademark of Pacific Tupe Limited. </p>
-       </div>
-   </div>
-</footer>
+				<div class="container">
+					<p class="text-center custmfontcolor">Copyright © 2021 Paysafe Holdings UK Limited. All rights reserved. Pacific Tupe Limited (FRN: 900001) is authorised by the Financial Conduct Authority under the Electronic Money Regulations 2011 for the issuing of electronic money and payment instruments. Pacific Tupe is a registered trademark of Pacific Tupe Limited. </p>
+				</div>
+			</div>
+		</footer>
 		
 
 		<script src="js/jquery.min.js"></script>
@@ -327,5 +346,5 @@ padding: 0px !important;
 			$('.panel-group').on('shown.bs.collapse', toggleIcon);
 		</script>
 
-</body>
-</html>
+	</body>
+	</html>
